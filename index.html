@@ -13,10 +13,12 @@
         <p>Hora: 17:00 horas</p>
         <p>Lugar: Teusaquillo</p>
         <p>Invitados: Brayan Durán y Tatiana Bedoya</p>
-        <form action="confirm.php" method="POST" class="confirmation-form">
-            <input type="hidden" name="guests" value="Brayan Durán y Tatiana Bedoya">
+        <form action="https://bodadedanielaydaniel.wuaze.com/confirm.php" method="POST">
+            <label for="guest_name">Nombre del Invitado:</label>
+            <input type="text" id="guest_name" name="guest_name" required>
             <button type="submit">Confirmar Asistencia</button>
-        </form>
+         </form>
+          
     </div>
 </body>
 </html>
